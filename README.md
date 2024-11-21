@@ -25,5 +25,23 @@ O site é uma homenagem à minha amada, repleto de lembranças dos nossos encont
 ## Como Rodar o Projeto
 
 1. Clone este repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/PROJETO.git
+
+    ```bash
+    git clone https://github.com/SEU-USUARIO/PROJETO.git
+    ```
+
+2. Navegue até a pasta do projeto:
+
+    ```bash
+    cd PROJETO
+    ```
+
+3. Abra o arquivo `index.html` no seu navegador para visualizar o site.
+
+## Contribuições
+
+Este é um projeto pessoal, mas se você tiver sugestões ou melhorias, fique à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
