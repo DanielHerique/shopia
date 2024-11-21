@@ -1,0 +1,112 @@
+/* Reset básico */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff0f5;
+    color: #ff4d6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    background: #ffe4e1;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff4d6d;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 105, 180, 0.7);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button:hover {
+    background: #ff4d6d;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+.description, .extra-text {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.description strong {
+    color: #ff4d6d;
+}
+
+.timer {
+    margin-top: 20px;
+}
+
+.timer h2 {
+    font-size: 1.4rem;
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+.digital-clock {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff69b4;
+    background: #ffdde1;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.unit-labels {
+    font-size: 0.9rem;
+    color: #ff4d6d;
+    margin-top: 5px;
+}
